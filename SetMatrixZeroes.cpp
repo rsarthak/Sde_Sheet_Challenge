@@ -17,7 +17,7 @@ void setZeros(vector<vector<int>> &matrix)
                 }
             }
         }
-        // cout<<firstRow<<" "<<firstCol<<endl;
+       
         for(int i=1; i<n; i++){
             for(int j=1; j<m; j++){
                 if(matrix[i][0] == 0 || matrix[0][j] == 0){
